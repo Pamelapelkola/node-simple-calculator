@@ -20,8 +20,6 @@ outputNum = parseFloat(numOne) - parseFloat(numTwo);
     outputNum = parseFloat(numOne) % parseFloat(numTwo);
 }else if(operand === 'exp'){
     outputNum = Math.pow(numOne, numTwo);
-}else if(operand === 'algebra'){
-outputNum = parseAlgebra(numOne);
 }else{
     outputNum = "Not a recognized command"
 }
